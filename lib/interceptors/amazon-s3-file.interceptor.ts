@@ -47,13 +47,13 @@ export function AmazonS3FileInterceptor(
         this.multer.storage = this.pickStorageOptions();
       }
 
-      await new Promise((resolve, reject) =>
+      await new Promise<void>((resolve, reject) =>
         this.multer.single(fieldName)(ctx.getRequest(), ctx.getResponse(), (err: any) => {
           if (err) {
             const error = transformException(err);
             return reject(error);
           }
-          resolve();
+          resolve()
         }),
       );
 

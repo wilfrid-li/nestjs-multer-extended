@@ -34,6 +34,14 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
 </div>
 
+## Package Note
+
+This is a fork of jeffminsungkim/nestjs-multer-extended, to support NestJS 8.
+
+- AWS SDK updated to ^2.1158.0
+- NestJS updated to ^8.0.0
+- Various packages audit fix
+
 ## Features
 
 - Single file upload to an Amazon S3 bucket
