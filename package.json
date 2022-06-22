@@ -1,6 +1,6 @@
 {
   "name": "@wilfridli/nestjs-multer-extended",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Extended MulterModule for NestJS",
   "author": "Wilfrid Li <bakablah@gmail.com>",
   "license": "MIT",
